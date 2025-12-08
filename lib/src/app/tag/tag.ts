@@ -1,5 +1,5 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, computed, input, output, signal } from '@angular/core';
-import {  IgTagSize } from './tag.enum';
+import {  IgTagSize, IgTagColor } from './tag.enum';
 
 @Component({
   selector: 'ig-tag',
@@ -59,22 +59,22 @@ export class IgTagComponent {
   }
 }
 
-  export enum IgTagColor {
-  Gray = 'gray',
-  Info = 'info',
-  Danger = 'danger',
-  Success = 'success',
-  Warning = 'warning',
-  Accent01 = 'accent-01',
-  Accent02 = 'accent-02',
-  Accent03 = 'accent-03',
-  Accent04 = 'accent-04',
-  Accent05 = 'accent-05',
-  Accent06 = 'accent-06',
-  Accent07 = 'accent-07',
-  Accent08 = 'accent-08',
-  Accent09 = 'accent-09',
-  Accent10 = 'accent-10',
-  Accent11 = 'accent-11',
-  Accent12 = 'accent-12',
-}
+//   export enum IgTagColor {
+//   Gray = 'gray',
+//   Info = 'info',
+//   Danger = 'danger',
+//   Success = 'success',
+//   Warning = 'warning',
+//   Accent01 = 'accent-01',
+//   Accent02 = 'accent-02',
+//   Accent03 = 'accent-03',
+//   Accent04 = 'accent-04',
+//   Accent05 = 'accent-05',
+//   Accent06 = 'accent-06',
+//   Accent07 = 'accent-07',
+//   Accent08 = 'accent-08',
+//   Accent09 = 'accent-09',
+//   Accent10 = 'accent-10',
+//   Accent11 = 'accent-11',
+//   Accent12 = 'accent-12',
+// }
